@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [5.0.12] - 2026-08-29
+
+### Changed
+
+- Make bundled skills explicit opt-in and document server reuse with `--keep-alive` / `--background` and `difit comment` (#463)
+
+### Fixed
+
+- Keep newlines between highlighted lines in multi-line code blocks in comment bodies (#462)
+- Don't report `origin/main` as the default branch in repositories with no remote (#459)
+
+### Thanks
+
+- [@finnmglas](https://github.com/finnmglas) for fixing the default branch detection in repos with no remote (#459)
+
 ## [5.0.11] - 2026-08-09
 
 ### Added
@@ -1380,7 +1395,8 @@ All notable changes to this project will be documented in this file.
 
 - First stable release 🌱
 
-[Unreleased]: https://github.com/yoshiko-pg/difit/compare/v5.0.11...HEAD
+[Unreleased]: https://github.com/yoshiko-pg/difit/compare/v5.0.12...HEAD
+[5.0.12]: https://github.com/yoshiko-pg/difit/compare/v5.0.11...v5.0.12
 [5.0.11]: https://github.com/yoshiko-pg/difit/compare/v5.0.10...v5.0.11
 [5.0.10]: https://github.com/yoshiko-pg/difit/compare/v5.0.9...v5.0.10
 [5.0.9]: https://github.com/yoshiko-pg/difit/compare/v5.0.8...v5.0.9
